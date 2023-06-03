@@ -8,7 +8,7 @@ function MainLayout() {
     <ThemeProvider>
       <Header></Header>
       <SideBar></SideBar>
-      <div className="height-100 bg-light">
+      <div className="height-100">
         <h4>Main Components</h4>
         <div className="container text-center">
         <div className="row">
