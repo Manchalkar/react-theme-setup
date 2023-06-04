@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* .test{
+  height: 500px; background-color: #007bff;
+} */
+
+.row-eq-height {
+  display: flex;
+}

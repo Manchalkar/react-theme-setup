@@ -5,10 +5,14 @@ function Header() {
   const { toggle, setToggle ,isDarkMode , setDarkMode } = useTheme();
 
   useLayoutEffect(() => {
+    let body = document.getElementsByTagName('body')[0] as HTMLBodyElement ;
+    
     if(!isDarkMode){
-        document.documentElement.setAttribute('data-bs-theme','light')
+        body.classList.remove('dark-mode');
+        body.classList.add("light-mode") 
     }else{
-        document.documentElement.setAttribute('data-bs-theme','dark')
+      body.classList.add('dark-mode');
+      body.classList.remove("light-mode") 
     }   
   }, [isDarkMode]);
 

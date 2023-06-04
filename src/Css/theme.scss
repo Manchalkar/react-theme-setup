@@ -1,0 +1,48 @@
+// _dark.scss
+body.dark-mode {
+    
+    background-color: $secondary-color-dark;
+    // Sidebar
+    .l-navbar {
+      background-color: $primary-color-dark;
+      color: $text-color-dark;
+    }
+    
+    // Header
+    .header {
+      background-color:$primary-color-dark;
+      color: $text-color-dark;
+    }
+
+    .mf-program ,
+    .mf-program-map{
+        >div{
+            background-color:$primary-color-dark ;
+        }
+    }
+  }
+  
+  // _light.scss
+  body.light-mode {
+
+    background-color: $primay-body-light;
+    // Sidebar
+    .l-navbar {
+      background-color: $primary-color-light;
+      color: $text-color-light;
+    }
+    
+    // Header
+    .header {
+      background-color:$white;
+      color: $text-color-light;
+    }
+
+    .mf-program ,
+    .mf-program-map{
+        >div{
+            background-color:$white ;
+        }
+    }
+  }
+  
